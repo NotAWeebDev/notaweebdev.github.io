@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is the Core API for Misaki, it constitutes both her economy system as well as her settings.",
   "title": "CoreAPI",
-  "url": "https://notaweebdev.github.io/",
+  "url": "https://notaweebdev.github.io",
   "order": [
     "Utilities",
     "Settings",
