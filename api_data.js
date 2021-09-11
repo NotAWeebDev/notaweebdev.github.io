@@ -59,11 +59,6 @@ define({ "api": [
         ]
       }
     },
-    "sampleRequest": [
-      {
-        "url": "/economy/:path/"
-      }
-    ],
     "filename": "routes/economy/economy.js",
     "groupTitle": "Economy"
   },
@@ -163,11 +158,6 @@ define({ "api": [
         ]
       }
     },
-    "sampleRequest": [
-      {
-        "url": "http://localhost:3030/economy/:path"
-      }
-    ],
     "filename": "routes/economy/economy.js",
     "groupTitle": "Economy"
   },
@@ -231,11 +221,6 @@ define({ "api": [
         ]
       }
     },
-    "sampleRequest": [
-      {
-        "url": "/economy/:path/:value"
-      }
-    ],
     "filename": "routes/economy/economy.js",
     "groupTitle": "Economy"
   },
@@ -300,11 +285,6 @@ define({ "api": [
         ]
       }
     },
-    "sampleRequest": [
-      {
-        "url": "/settings/:path"
-      }
-    ],
     "filename": "routes/settings/settings.js",
     "groupTitle": "Settings"
   },
@@ -369,11 +349,6 @@ define({ "api": [
         ]
       }
     },
-    "sampleRequest": [
-      {
-        "url": "/settings/:path"
-      }
-    ],
     "filename": "routes/settings/settings.js",
     "groupTitle": "Settings"
   },
@@ -438,11 +413,6 @@ define({ "api": [
         ]
       }
     },
-    "sampleRequest": [
-      {
-        "url": "/settings/:path/:value"
-      }
-    ],
     "filename": "routes/settings/settings.js",
     "groupTitle": "Settings"
   },
@@ -501,11 +471,6 @@ define({ "api": [
         }
       ]
     },
-    "sampleRequest": [
-      {
-        "url": "/util/ping"
-      }
-    ],
     "filename": "routes/util/ping.js",
     "groupTitle": "Utilities"
   }
