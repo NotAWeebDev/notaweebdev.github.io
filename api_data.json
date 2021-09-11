@@ -22,7 +22,7 @@
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n  \"messageAPI\": \"Deleted successfully\"\n}",
+          "content": "HTTP/1.1 200 OK\n{\n  APIMessage: \"Deleted successfully\"\n}",
           "type": "json"
         }
       ]
@@ -145,7 +145,7 @@
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n  \"messageAPI\": \"Saved successfully\"\n}",
+          "content": "HTTP/1.1 200 OK\n{\n  APIMessage: \"Saved successfully\"\n}",
           "type": "json"
         }
       ]
@@ -189,7 +189,7 @@
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{ message: \"The settings were deleted successfully\" }",
+          "content": "HTTP/1.1 200 OK\n{\n  APIMessage: \"Deleted successfully.\"\n}",
           "type": "json"
         }
       ]
@@ -277,7 +277,7 @@
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{  }",
+          "content": "HTTP/1.1 200 OK\n{\n  APIMessage: \"Saved successfully.\"\n}",
           "type": "json"
         }
       ]
@@ -313,7 +313,7 @@
             "group": "Success 200",
             "type": "String",
             "optional": false,
-            "field": "messageAPI",
+            "field": "APIMessage",
             "description": "<p>A successful pong.</p>"
           },
           {
@@ -328,7 +328,7 @@
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n  messageAPI: \"pong\",\n  timestamp: 1631015865921\n}",
+          "content": "HTTP/1.1 200 OK\n{\n  APIMessage: \"pong\",\n  timestamp: 1631015865921\n}",
           "type": "json"
         }
       ]
