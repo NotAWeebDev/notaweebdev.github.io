@@ -69,7 +69,7 @@
     "version": "1.0.0",
     "name": "profileLoad",
     "group": "Economy",
-    "description": "<p>Blah</p>",
+    "description": "<p>This is the economic, or social profile of the specified user, on the specified guild.</p>",
     "header": {
       "fields": {
         "Header": [
