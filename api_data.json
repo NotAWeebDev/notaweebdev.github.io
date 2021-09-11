@@ -7,25 +7,6 @@
     "name": "profileDelete",
     "group": "Economy",
     "description": "<p>Blah</p>",
-    "header": {
-      "fields": {
-        "Header": [
-          {
-            "group": "Header",
-            "optional": false,
-            "field": "Authorization",
-            "description": "<p>Core-API Key</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Header-Example:",
-          "content": "{\n    \"Authorization\": \"GndxRHWDaHCVsbrBwGAF\"\n}",
-          "type": "json"
-        }
-      ]
-    },
     "success": {
       "fields": {
         "Success 200": [
@@ -70,26 +51,6 @@
     "name": "profileLoad",
     "group": "Economy",
     "description": "<p>This is the economic, or social profile of the specified user, on the specified guild.</p>",
-    "header": {
-      "fields": {
-        "Header": [
-          {
-            "group": "Header",
-            "type": "String",
-            "optional": false,
-            "field": "Authorization",
-            "description": "<p>The key required to utilise the CoreAPI.</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Header-Example:",
-          "content": "{\n    \"Authorization\": \"GndxRHWDaHCVsbrBwGAF\"\n}",
-          "type": "json"
-        }
-      ]
-    },
     "success": {
       "fields": {
         "Success 200": [
@@ -169,25 +130,6 @@
     "name": "profileSave",
     "group": "Economy",
     "description": "<p>Blah</p>",
-    "header": {
-      "fields": {
-        "Header": [
-          {
-            "group": "Header",
-            "optional": false,
-            "field": "Authorization",
-            "description": "<p>Core-API Key</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Header-Example:",
-          "content": "{\n    \"Authorization\": \"GndxRHWDaHCVsbrBwGAF\"\n}",
-          "type": "json"
-        }
-      ]
-    },
     "success": {
       "fields": {
         "Success 200": [
@@ -232,26 +174,6 @@
     "name": "settingsDelete",
     "group": "Settings",
     "description": "<p>This is the path you would take to delete server settings</p>",
-    "header": {
-      "fields": {
-        "Header": [
-          {
-            "group": "Header",
-            "type": "String",
-            "optional": false,
-            "field": "Authorization",
-            "description": "<p>The key required to utilise the CoreAPI.</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Header-Example:",
-          "content": "{\n    \"Authorization\": \"GndxRHWDaHCVsbrBwGAF\"\n}",
-          "type": "json"
-        }
-      ]
-    },
     "success": {
       "fields": {
         "Success 200": [
@@ -296,26 +218,6 @@
     "name": "settingsLoad",
     "group": "Settings",
     "description": "<p>This is the path you would take to fetch server settings</p>",
-    "header": {
-      "fields": {
-        "Header": [
-          {
-            "group": "Header",
-            "type": "String",
-            "optional": false,
-            "field": "Authorization",
-            "description": "<p>The key required to utilise the CoreAPI.</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Header-Example:",
-          "content": "{\n    \"Authorization\": \"GndxRHWDaHCVsbrBwGAF\"\n}",
-          "type": "json"
-        }
-      ]
-    },
     "success": {
       "fields": {
         "Success 200": [
@@ -360,26 +262,6 @@
     "name": "settingsSave",
     "group": "Settings",
     "description": "<p>This is the path you would take to save server settings</p>",
-    "header": {
-      "fields": {
-        "Header": [
-          {
-            "group": "Header",
-            "type": "String",
-            "optional": false,
-            "field": "Authorization",
-            "description": "<p>The key required to utilise the CoreAPI.</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Header-Example:",
-          "content": "{\n    \"Authorization\": \"GndxRHWDaHCVsbrBwGAF\"\n}",
-          "type": "json"
-        }
-      ]
-    },
     "success": {
       "fields": {
         "Success 200": [
@@ -424,26 +306,6 @@
     "name": "Ping",
     "group": "Utilities",
     "description": "<p>Ping this endpoint to retrieve a timestamp</p>",
-    "header": {
-      "fields": {
-        "Header": [
-          {
-            "group": "Header",
-            "type": "String",
-            "optional": false,
-            "field": "Authorization",
-            "description": "<p>The key required to utilise the CoreAPI.</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Header-Example:",
-          "content": "{\n    \"Authorization\": \"GndxRHWDaHCVsbrBwGAF\"\n}",
-          "type": "json"
-        }
-      ]
-    },
     "success": {
       "fields": {
         "Success 200": [
