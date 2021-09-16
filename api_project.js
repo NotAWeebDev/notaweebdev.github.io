@@ -16,6 +16,7 @@ define({
     "settingsLoad",
     "settingsSave",
     "settingsDelete",
+    "profileFind",
     "profileLoad",
     "profileSave",
     "profileDelete"
@@ -25,7 +26,7 @@ define({
   "apidoc": "0.3.0",
   "generator": {
     "name": "apidoc",
-    "time": "2021-09-15T16:49:57.607Z",
+    "time": "2021-09-15T19:56:50.056Z",
     "url": "https://apidocjs.com",
     "version": "0.29.0"
   }
